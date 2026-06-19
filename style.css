@@ -25,7 +25,7 @@ body { background-color: #e868a0; color: white; font-family: sans-serif; padding
     margin-bottom: 20px;
 }
 
-.profil-foto {
+.profilfoto {
     width: 80px;         /* Fotoğrafın büyüklüğü */
     height: 80px;
     border-radius: 50%;  /* Yuvarlak olması için */
