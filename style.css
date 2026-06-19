@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'GraffitiFont';
-    src: url('Graffiti Rebel.ttf');
+    src: url('Graffiti.ttf');
 }
 
 body { background-color: #e868a0; color: white; font-family: sans-serif; padding: 20px; }
