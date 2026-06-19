@@ -5,15 +5,15 @@
 
 body { background-color: #808080; color: white; font-family: sans-serif; padding: 20px; }
 
-.baslik { font-family: 'GraffitiFont', sans-serif; font-size: 80px; color: #f5aeae; }
-.giris-cumlesi { color: #f5aeae; font-size: 17px; margin-bottom: 40px; }
+.baslik { font-family: 'GraffitiFont', sans-serif; font-size: 80px; color: #ffffff; }
+.giris-cumlesi { color: #ffffff; font-size: 18px; margin-bottom: 40px; }
 .proje { display: flex; align-items: flex-start; gap: 20px; margin-bottom: 50px; }
 
-.beyaz-cerceve { border: 5px solid #f5aeae; width: 300px; padding: 5px; }
-.tarih-alani { background-color: #808080; color: #f5aeae; padding: 5px; text-align: center; margin-bottom: 5px; font-weight: bold; border-bottom: 2px solid #f5aeae; }
+.beyaz-cerceve { border: 5px solid #808080; width: 300px; padding: 5px; }
+.tarih-alani { background-color: #808080; color: #808080; padding: 5px; text-align: center; margin-bottom: 5px; font-weight: bold; border-bottom: 2px solid #808080; }
 .beyaz-cerceve img { width: 100%; display: block; }
 
-.beyaz-yazi-alani { color: white; flex: 1; padding-top: 10px; border-bottom: 1px solid #f5aeae; }
+.beyaz-yazi-alani { color: white; flex: 1; padding-top: 10px; border-bottom: 1px solid #808080; }
 
 .sosyal-medya { margin-top: 50px; border-top: 2px solid #ffffff; padding-top: 20px; }
 .sosyal-medya a { color: #ffffff; text-decoration: none; margin-right: 20px; font-size: 18px; font-weight: bold; }
