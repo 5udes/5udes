@@ -18,3 +18,17 @@ body { background-color: #e868a0; color: white; font-family: sans-serif; padding
 .sosyal-medya { margin-top: 50px; border-top: 2px solid #ffffff; padding-top: 20px; }
 .sosyal-medya a { color: #ffffff; text-decoration: none; margin-right: 20px; font-size: 18px; font-weight: bold; }
 .sosyal-medya a:hover { color: #e868a0; }
+.ust-kisim {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.profil-foto {
+    width: 80px;         /* Fotoğrafın büyüklüğü */
+    height: 80px;
+    border-radius: 50%;  /* Yuvarlak olması için */
+    object-fit: cover;
+    border: 2px solid white;
+}
