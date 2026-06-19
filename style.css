@@ -32,3 +32,8 @@ body { background-color: #808080; color: white; font-family: sans-serif; padding
     object-fit: cover;
     border: 2px solid white;
 }
+img {
+    width: 200px;
+    height: 160px;
+    object-fit: cover;
+}
