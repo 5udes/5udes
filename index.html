@@ -2,77 +2,32 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>5udes - Günlük</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
-    
-    <style>
-        body {
-            margin: 0;
-            padding: 40px 20px;
-            /* Soft pembe arka plan */
-            background-color: #ffeef2; 
-            font-family: 'Poppins', sans-serif;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            color: #555;
-        }
-
-        .header-title {
-            font-weight: 600;
-            color: #d88fa3;
-            margin-bottom: 50px;
-            font-size: 1.8rem;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-        }
-
-        .watermark {
-            position: fixed;
-            font-family: 'Poppins', sans-serif;
-            font-weight: 800;
-            font-size: 12vw;
-            color: #f7dadd;
-            z-index: 0;
-            user-select: none;
-            pointer-events: none;
-            top: 40%;
-        }
-
-        .graffiti-card {
-            background: rgba(255, 255, 255, 0.7);
-            padding: 30px;
-            border-radius: 30px;
-            margin-bottom: 30px;
-            width: 90%;
-            max-width: 450px;
-            text-align: center;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.03);
-            z-index: 1;
-            border: 1px solid #fff;
-        }
-
-        .footer { 
-            margin-top: 40px; 
-            z-index: 1; 
-            text-align: center; 
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>5UDES - Portfolyo</title>
 </head>
 <body>
 
-    <div class="watermark">5udes</div>
+    <h1 class="baslik">5UDES</h1>
+    <p class="giris-cumlesi">Merhaba, ben Udes. Bu site, graffiti çalışmalarımı, taglerimi ve zamanla gelişen tarzımı bir araya getirdiğim kişisel portfolyom. Ürettiğim işleri, farklı denemelerimi ve gelişim sürecimi burada düzenli olarak paylaşıyorum. Hoş geldin<3.</p>
 
-    <div class="header-title">graffiti günlüğüm :3</div>
+    <div id="icerik-alani">
+        
+        <article class="proje">
+            <div class="sari-kutu">
+                <div class="turuncu-tarih">01.06.2026</div>
+                <img src="images/graffiti1.jpg" alt="Graffiti Çalışması">
+            </div>
+            <div class="beyaz-yazi-alani">
+                <p>Buraya fotoğrafınla ilgili açıklamanı yazabilirsin. Yeni ekledikçe burayı düzenle.</p>
+            </div>
+        </article>
 
-    <div class="graffiti-card">
-        <p style="font-weight: 200;">Burada yeni graffiti çalışmalarım yer alacak. Henüz içerik eklenmedi, yakında çok güzel şeyler burada olacak.</p>
     </div>
 
-    <div class="footer">
-        <a href="https://instagram.com/5udes" target="_blank" style="color: #d88fa3; text-decoration: none; font-size: 0.8rem; letter-spacing: 1px;">INSTAGRAM: @5UDES</a>
-    </div>
+    <footer class="sosyal-medya">
+        <a href="https://instagram.com/kullaniciadin">Instagram</a>
+        <a href="https://tiktok.com/@kullaniciadin">Tiktok</a>
+    </footer>
 
 </body>
 </html>
