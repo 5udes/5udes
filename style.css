@@ -13,7 +13,7 @@ body { background-color: #2f3233; color: white; font-family: sans-serif; padding
 .tarih-alani { background-color: #2f3233; color: #ffffff; padding: 5px; text-align: center; margin-bottom: 5px; font-weight: bold; border-bottom: 2px solid #2f3233; }
 .beyaz-cerceve img { width: 100%; display: block; }
 
-.beyaz-yazi-alani { color: white; flex: 1; padding-top: 10px; border-bottom: 1px solid #2f3233; }
+.beyaz-yazi-alani { color: white; flex: 1; padding-top: 18px; border-bottom: 1px solid #2f3233; }
 
 .sosyal-medya { margin-top: 50px; border-top: 2px solid #ffffff; padding-top: 20px; }
 .sosyal-medya a { color: #ffffff; text-decoration: none; margin-right: 20px; font-size: 18px; font-weight: bold; }
