@@ -33,3 +33,33 @@ body { background-color: #808080; color: white; font-family: sans-serif; padding
     border: 2px solid white;
 }
 
+/* 1. Lightbox'ı ekranı kaplayacak şekilde ayarla */
+.lightbox {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Arka planı koyu yap */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* 2. Fotoğrafın ekranı taşırmasını engelle */
+#lightbox-img {
+    max-width: 90%;
+    max-height: 80vh;
+    border: 5px solid white;
+}
+
+/* 3. Çarpı işaretini görünür yap */
+.close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+}
